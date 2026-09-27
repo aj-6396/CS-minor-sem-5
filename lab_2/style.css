@@ -70,13 +70,17 @@ body {
     background-color: #2ecc71;
 }
 
-/* Image Placeholder inside Card */
+/* Image Placeholder inside Card (Centered Emojis) */
 .card-image {
     width: 100%;
     height: 110px;
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(255, 255, 255, 0.25);
     border-radius: 8px;
     margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 52px;
 }
 
 /* Card Titles & Text */
@@ -98,7 +102,7 @@ body {
     cursor: pointer;
 }
 
-/* Creator Box in Bottom Right Corner (Half size of content cards: ~100px width vs ~200px card width) */
+/* Creator Box in Bottom Right Corner (Half size of content cards: ~110px width vs ~200px card width) */
 .creator-box {
     position: fixed;
     bottom: 15px;
